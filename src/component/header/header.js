@@ -1,2 +1,6 @@
 import react from "react";
-const header = () => {};
+import "../header";
+const header = () => {
+  return <></>;
+};
+export default header;
