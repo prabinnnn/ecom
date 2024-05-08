@@ -9,6 +9,9 @@ const Header = () => {
           <div class="col-sm-2">
             <image src={Logo} />
           </div>
+          <div className="col-sm-5">
+            <div className="headerSearch d-flex align-items-center"></div>
+          </div>
         </div>
       </div>
     </header>
