@@ -14,7 +14,7 @@ const Header = () => {
             <div className="headerSearch d-flex align-items-center">
               <div className="selectdrop cursor">AllCatergories</div>
               <div className="search">
-                <input type="text" />
+                <input type="text" placeholder="search for items..." />
               </div>
             </div>
           </div>
