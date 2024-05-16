@@ -1,7 +1,7 @@
 import React from "react";
 import "../header/header.css";
 import "../../assets/images/logo.svg";
-
+import SearchIcon from "@mui/icons-material/Search";
 const Header = () => {
   return (
     <header>
@@ -15,6 +15,7 @@ const Header = () => {
               <div className="selectdrop cursor">AllCatergories</div>
               <div className="search">
                 <input type="text" placeholder="search for items..." />
+                <SearchIcon />
               </div>
             </div>
           </div>
