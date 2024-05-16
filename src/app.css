@@ -10,3 +10,6 @@ body {
 .container-fluid {
   padding: 0px 25px;
 }
+.cursor {
+  cursor: pointer;
+}
