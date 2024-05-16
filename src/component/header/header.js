@@ -1,5 +1,6 @@
 import React from "react";
 import "../header/header.css";
+import "../../assets/images/logo.svg";
 
 const Header = () => {
   return (
@@ -10,7 +11,9 @@ const Header = () => {
             <image src={Logo} />
           </div>
           <div className="col-sm-5">
-            <div className="headerSearch d-flex align-items-center"></div>
+            <div className="headerSearch d-flex align-items-center">
+              <div className="selectdrop"></div>
+            </div>
           </div>
         </div>
       </div>
