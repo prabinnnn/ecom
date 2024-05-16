@@ -13,8 +13,16 @@ header.headerSearch {
 }
 header.headerSearch .selectdrop {
   width: 30%;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
+  position: relative;
+}
+header.headerSearch .selectdrop::after {
+  content: "";
+  width: 1px;
+  height: 30px;
+  background-color: rgb(0, 0, 0, 1);
+  position: absolute;
 }
 header.headerSearch .search {
   width: 70%;
