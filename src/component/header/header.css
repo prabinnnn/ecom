@@ -13,6 +13,8 @@ header.headerSearch {
 }
 header.headerSearch .selectdrop {
   width: 30%;
+  font-size: 18px;
+  font-weight: 500;
 }
 header.headerSearch .search {
   width: 70%;
