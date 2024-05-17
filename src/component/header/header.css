@@ -37,4 +37,7 @@ header.headerSearch .search input {
   font-size: 16px;
 }
 header.headerSearch .search .SearchIcon {
+  position: absolute;
+  top: 5px;
+  right: 15px;
 }
