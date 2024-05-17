@@ -27,7 +27,9 @@ header.headerSearch .selectdrop::after {
   right: 0px;
 }
 header.headerSearch .search {
-  width: 70%;
+  width: 82%;
+  padding-left: 30px;
+  position: relative;
 }
 header.headerSearch .search input {
   width: 100%;
