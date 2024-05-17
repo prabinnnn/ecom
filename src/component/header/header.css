@@ -42,6 +42,6 @@ header.headerSearch .search .SearchIcon {
   position: absolute;
   top: 12px;
   right: 7px;
-  opacity: 0.8;
-  font-size: 20px !important;
+  opacity: 0.5;
+  font-size: 30px !important;
 }
