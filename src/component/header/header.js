@@ -15,7 +15,7 @@ const Header = () => {
               <div className="selectdrop cursor">AllCatergories</div>
               <div className="search">
                 <input type="text" placeholder="search for items..." />
-                <SearchIcon />
+                <SearchIcon className="SearchIcon" />
               </div>
             </div>
           </div>
