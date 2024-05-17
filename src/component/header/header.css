@@ -40,6 +40,6 @@ header.headerSearch .search input {
 }
 header.headerSearch .search .SearchIcon {
   position: absolute;
-  top: 5px;
-  right: 15px;
+  top: 10px;
+  right: 10px;
 }
