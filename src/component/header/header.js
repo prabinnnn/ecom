@@ -13,7 +13,10 @@ const Header = () => {
           </div>
           <div className="col-sm-5">
             <div className="headerSearch d-flex align-items-center">
-              <div className="selectdrop cursor">AllCatergories</div>
+              <div className="selectdrop cursor poistion-relative">
+                AllCatergories
+                <Select />
+              </div>
               <div className="search">
                 <input type="text" placeholder="search for items..." />
                 <SearchIcon className="SearchIcon cursor" />

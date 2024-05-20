@@ -1,2 +1,6 @@
 import React from "react";
-const Select = () => {};
+import "../selectDrop/select.css";
+const select = () => {
+  return <div className="SelectDrop"></div>;
+};
+export default select;
