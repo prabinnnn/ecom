@@ -19,7 +19,11 @@
 .SelectDrop .SerachResults {
   width: 100%;
   margin: 0px;
+  padding: 10px 0px;
 }
 .SelectDrop .SerachResults li {
   list-style: none;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
 }
