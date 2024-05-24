@@ -20,3 +20,6 @@
   width: 100%;
   margin: 0px;
 }
+.SelectDrop .SerachResults li {
+  list-style: none;
+}
