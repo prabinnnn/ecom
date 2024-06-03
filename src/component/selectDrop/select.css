@@ -20,6 +20,7 @@
   width: 100%;
   margin: 0px;
   padding: 10px 0px;
+  mask-size: auto;
 }
 .SelectDrop .SerachResults li {
   list-style: none;
