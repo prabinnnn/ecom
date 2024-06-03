@@ -30,3 +30,4 @@
   padding: 10px;
 }
 .SelectDrop .SerachResults ::-webkit-scrollbar{width: 7px !important;}
+.SelectDrop .SerachResults ::-webkit-scrollbar-thumb{background-color: #ccc !important;}
