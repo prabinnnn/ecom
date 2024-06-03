@@ -29,3 +29,4 @@
   width: 100%;
   padding: 10px;
 }
+.SelectDrop .SerachResults ::-webkit-scrollbar{width: 7px !important;}
