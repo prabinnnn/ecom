@@ -3,12 +3,13 @@
   height: 300px;
   background-color: #fff;
   position: absolute;
-  top: 160%;
+  top: 100%;
   left: -20px;
   z-index: 100;
   box-shadow: 0px 3px 6px rgb(0 0 0 / 20%);
   padding: 15px;
 }
+.SelectDrop .selectOpen{display: block; padding: 10px 0px;}
 .SearchField input {
   width: 100%;
   height: 60px;
@@ -24,11 +25,12 @@
   max-height: 200px;
   overflow: scroll;
 }
+.SelectDrop .SerachResults ::-webkit-scrollbar{width: 7px !important;}
+.SelectDrop .SerachResults ::-webkit-scrollbar-thumb{background-color: #ccc !important;}
 .SelectDrop .SerachResults li {
   list-style: none;
   font-size: 18px;
   width: 100%;
   padding: 10px;
 }
-.SelectDrop .SerachResults ::-webkit-scrollbar{width: 7px !important;}
-.SelectDrop .SerachResults ::-webkit-scrollbar-thumb{background-color: #ccc !important;}
+.SelectDrop .SerachResults li:hover{background: #30c48d; color:#fff;}

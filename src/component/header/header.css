@@ -11,19 +11,19 @@ header.headerSearch {
   padding: 10px 15px;
   width: 30%;
 }
-header.headerSearch .selectdrop {
+header.headerSearch .selectdropwrapper {
   width: 30%;
   font-size: 16px;
   font-weight: 500;
   position: relative;
 }
-header.headerSearch .selectdrop::after {
+header.headerSearch .selectdropwrapper::after {
   content: "";
   width: 1px;
   height: 30px;
   background-color: rgb(0, 0, 0, 0.2);
   position: absolute;
-  top: 0px;
+  top: 5px;
   right: 0px;
 }
 header.headerSearch .search {
