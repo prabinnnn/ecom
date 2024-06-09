@@ -3,8 +3,7 @@ import "../selectDrop/select.css";
 const select = () => {
   return (
     <div className="selectdrop cursor poistion-relative">
-                AllCatergories
-
+                <span className="openSelect">AllCatergories</span>
     <div className="SelectDrop">
       <div className="SearchField">
         <input type="text" />
