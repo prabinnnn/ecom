@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import "../selectDrop/select.css";
 const select = () => {
   const [isOpenSelect,setisOpenSelect]=useState(false)
+  const openSelect =()=>{
+    setisOpenSelect(true)
+  }
   return (
     <div className="selectdropwrapper cursor poistion-relative">
-                <span className="openSelect">AllCatergories</span>
+                <span className="openSelect" onClick={openSelect}>AllCatergories</span>
                 {
                   isOpenSelect === true && 
                   <div className="SelectDrop">
